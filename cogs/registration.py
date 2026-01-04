@@ -135,7 +135,7 @@ class Register(commands.Cog):
         ][:25]
         
     async def fetch_user(self, fid: int):
-        URL = "https://kingshot.net/api/player-info?playerId"
+        URL = "https://kingshot.net/api/player-info"
         HEADERS = {"Content-Type": "application/x-www-form-urlencoded"}
         
         ssl_context = ssl.create_default_context()
